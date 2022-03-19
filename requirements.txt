@@ -1,0 +1,8 @@
+cython
+yaml
+time
+timm==0.3.4
+submitit
+torch==1.5.1
+torchvision==0.6.1
+scipy

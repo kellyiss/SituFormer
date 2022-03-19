@@ -25,7 +25,7 @@ We recommand to symlink the path to the data/. And the path structure should be 
 ## Training for Noun model
 After the preparation, you can start the training with the following command.
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --use_env main_gsr.py --gsr_path data/swig
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --use_env main_gsr.py --gsr_path data
 
 ```
 
